@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Painikepeli on moninpeli jossa tehtävänä on kerätä mahdollisimman paljon pisteitä. Peliä voi pelata täällä: https://festive-shannon-a3b1c5.netlify.com/
+Painikepeli on moninpeli jossa tavoite on kerätä mahdollisimman paljon pisteitä. Peliä voi pelata täällä: https://festive-shannon-a3b1c5.netlify.com/
 
 Selainsovellus on tehty Reactilla käyttäen Socket.io kirjastoa sekä express.js, Node.js kehitysympäristöjä.
 
