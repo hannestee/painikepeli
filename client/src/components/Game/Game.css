@@ -1,0 +1,88 @@
+.buttons{
+  display: inline-block;
+}
+
+.gameButton{
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  /* margin: 10px 150px 0px 150px; */
+  transition-duration: 0.4s;
+  margin: 10px 200px 0px 150px;
+}
+
+.gameButton:hover{
+  background-color: #4C6666;
+  color: white;
+}
+
+.backButton{
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  /* margin-left: -50px; */
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #1A1A1D;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 75%;
+  padding: 0px;
+  width: 30%;
+}
+.messages {
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 1400px) {
+  .outerContainer {
+    height: 40vh;
+  }
+  .container {
+    height: 75%;
+    padding: 0px;
+    width: 75%;
+  }
+  .gameButton{
+    margin: 10px 270px 0px 220px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .center {
+    font-size: 11px;
+  }
+  .gameButton{
+    margin: 10px 130px 0px 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gameButton{
+    margin: 10px 60px 0px 15px;
+  }
+}
