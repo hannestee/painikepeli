@@ -1,11 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Painikepeli on moninpeli jossa tehtävänä on kerätä mahdollisimman paljon pisteitä. Peliä voi pelata täällä: https://festive-shannon-a3b1c5.netlify.com/
+
+Selainsovellus on tehty Reactilla käyttäen Socket.io kirjastoa sekä express.js, Node.js kehitysympäristöjä.
 
 ## Kuinka asennat pelin
 
 Vaaditaan: Node.js https://nodejs.org/en/
 
-Tee sekä clientille ja serverille:
+Sovellus koostuu kahdesta osasta: käyttöliittymästä ja palvelimesta. Aja komennot clientille ja serverille niiden kansioissa:
 
 ### `npm install`
 
@@ -14,5 +17,9 @@ Tee sekä clientille ja serverille:
 Avaa http://localhost:3000 osoite.
 
 
-Tähän palvelimen osoite.
-const ENDPOINT = 'https://painikepeli-hannes.herokuapp.com/';
+
+Palvelin on julkisesti saatavilla pilvipalvelussa: https://painikepeli-hannes.herokuapp.com/
+Palvelimen osoitteen voi vaihtaa muuttamalla ENDPOINT muuttujaa tiedostosta \client\src\components\Game\Game.js
+
+#const ENDPOINT = '';
+
