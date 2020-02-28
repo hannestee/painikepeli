@@ -21,5 +21,7 @@ Avaa http://localhost:3000 osoite.
 Palvelin on julkisesti saatavilla pilvipalvelussa: https://painikepeli-hannes.herokuapp.com/
 Palvelimen osoitteen voi vaihtaa muuttamalla ENDPOINT muuttujaa tiedostosta \client\src\components\Game\Game.js
 
-#const ENDPOINT = '';
+const ENDPOINT = 'localhost:5000';
+
+Oletuksena arvo on localhost:5000.
 
